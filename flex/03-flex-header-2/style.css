@@ -48,6 +48,10 @@ ul {
 }
 
 /*Exercicio*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 .header{
   display: flex;
@@ -68,6 +72,6 @@ ul {
 
 .notifications{
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   gap: 16px;
 }
